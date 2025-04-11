@@ -56,7 +56,7 @@ def send_to_llm(message, pdf_content):
         return "Please enter a message."
     
     url = "http://127.0.0.1:8000/ask-llm"
-    payload = {"pdf_content": pdf_content, "message": message}
+    payload = {"question":message}
     try:
         response = requests.post(url, json=payload)
         if response.status_code == 200:
@@ -100,4 +100,4 @@ with gr.Blocks() as demo:
     # When "Send Message" is clicked, send both the user message and the extracted PDF content to the /ask-llm API.
     llm_send.click(send_to_llm, inputs=[llm_message, pdf_content_display], outputs=llm_response)
 
-demo.launch()
+demo.launch( server_port=7860, debug=True, share=False)

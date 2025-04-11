@@ -3,3 +3,8 @@ uvicorn
 pymupdf
 gradio
 requests
+huggingface_hub[hf_xet]
+transformers
+sentence-transformers
+faiss-cpu
+torch

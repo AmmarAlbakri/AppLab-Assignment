@@ -1,0 +1,28 @@
+Introduction to Artificial Intelligence (AI): Artificial Intelligence (AI) refers to the simulation of 
+human intelligence in machines that are programmed to think like humans and mimic their 
+actions. The term may also be applied to any machine that exhibits traits associated with a 
+human mind such as learning and problem-solving.​
+ 
+Types of AI: There are three main types of AI: Narrow AI, General AI, and Superintelligent AI.​
+ 
+Narrow AI: This type of AI is specialized in performing a single task. For example, a 
+machine learning model that can recognize faces or play chess.​
+ 
+​General AI: General AI would have the ability to perform any intellectual task that a 
+human can do. It is still theoretical and has not been realized.​
+ 
+Superintelligent AI: This type of AI surpasses human intelligence across all domains 
+and is purely speculative at this point.​
+ 
+Machine Learning (ML): Machine Learning is a subset of AI that involves the use of algorithms 
+that enable computers to learn from data and make predictions based on that data. ML 
+algorithms can be categorized into supervised learning, unsupervised learning, and 
+reinforcement learning.​
+ 
+Deep Learning (DL): Deep Learning is a subset of Machine Learning that uses artificial neural 
+networks to simulate the workings of the human brain. DL models have been used in speech 
+recognition, image classification, and natural language processing.​
+ 
+AI Applications: AI is used in various fields such as healthcare (e.g., diagnostic systems), 
+automotive (e.g., self-driving cars), finance (e.g., fraud detection), and entertainment (e.g., 
+movie recommendation systems). 
