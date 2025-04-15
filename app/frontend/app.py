@@ -100,4 +100,4 @@ with gr.Blocks() as demo:
     # When "Send Message" is clicked, send both the user message and the extracted PDF content to the /ask-llm API.
     llm_send.click(send_to_llm, inputs=[llm_message, pdf_content_display], outputs=llm_response)
 
-demo.launch( server_port=7860, debug=True, share=False)
+demo.launch(server_name="0.0.0.0", server_port=7860, debug=True, share=False)
